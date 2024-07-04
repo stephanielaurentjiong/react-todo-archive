@@ -21,7 +21,7 @@ function TodoList() {
     return (
         <div>
             <ul>
-                {todoList.map(function(item) => {
+                {todoList.map(function(item) {
                     return (
                       <TodoListItem key={item.id} todo={item} /> //Pass key and todo as props to TodoListItem
                     )
