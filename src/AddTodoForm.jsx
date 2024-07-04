@@ -5,8 +5,8 @@ function AddTodoForm (props) {
         event.preventDefault();
         const todoTitle = event.target.title.value; //Retrieve input value using event.target.title.value
         console.log(todoTitle);
-        event.target.reset();
         props.onAddTodo(todoTitle);
+        event.target.reset();
         
     }; 
     return (
