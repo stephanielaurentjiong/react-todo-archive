@@ -1,31 +1,31 @@
 import React from 'react';
 import TodoListItem from './TodoListItem';
 
-let todoList = [
-    {
-      id: 123,
-      title: "Complete React Week1"
-    },
-    {
-      id: 213,
-      title: "Complete Node Week1"
-    },
-    {
-      id: 321,
-      title: "Complete Intro Week1"
-    }
-  ]
+// let todoList = [
+//     {
+//       id: 123,
+//       title: "Complete React Week1"
+//     },
+//     {
+//       id: 213,
+//       title: "Complete Node Week1"
+//     },
+//     {
+//       id: 321,
+//       title: "Complete Intro Week1"
+//     }
+//   ]
   
 
-function TodoList() {
+const TodoList = ({todoList}) => {
     return (
         <div>
             <ul>
-                {todoList.map(function(item) {
-                    return (
+                {todoList.map((item) => (
+                   
                       <TodoListItem key={item.id} todo={item} /> //Pass key and todo as props to TodoListItem
-                    )
-                })}
+                
+                ))}
             </ul>
         </div>
     )
