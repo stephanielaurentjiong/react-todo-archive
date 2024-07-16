@@ -1,8 +1,8 @@
 import React from 'react';
 
-function TodoListItem(props) {
+function TodoListItem({todo}) {
     return (
-        <li>{props.todo.title}</li> //Access props.todo.title to display the title
+        <li>{todo.title}</li> //Access props.todo.title to display the title
     )
 }
 
