@@ -1,0 +1,29 @@
+.ListItem {
+  color: #3f3f3f;
+  display: flex;
+  justify-content: space-between; /* Align the todo text and the button */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd; /* Add a border to each item */
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 600;
+  width: 100%;
+  max-width: 25em;
+}
+
+.ListItem button {
+  background-color: #d8c7b9; /* Customize the button color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3f3f3f;
+}
+
+.ListItem button:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(-1px);
+}
