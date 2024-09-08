@@ -1,0 +1,9 @@
+.todoListContainer {
+  list-style: none; /* Remove bullets if you want */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centers text within the list items */
+  width: 100%; /* Ensure the list takes up full width */
+  max-width: 20em; /* You can adjust this value to control overall width */
+  margin: 0 auto;
+}

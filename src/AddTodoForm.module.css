@@ -1,0 +1,33 @@
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.formContainer input {
+  flex-grow: 1; /* Allow input to take up remaining space */
+  padding: 8px;
+  margin-right: 10px;
+  margin-left: 2px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #3f3f3f;
+}
+
+.formContainer button {
+  background-color: #d8c7b9;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3f3f3f;
+}
+
+.formContainer button:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(-1px);
+}
